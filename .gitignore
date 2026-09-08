@@ -1,0 +1,28 @@
+# Django
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+db.sqlite3
+*.egg-info/
+dist/
+build/
+
+# Claude Code / MCP (contains secrets!)
+.mcp.json
+.claude/settings.local.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+venv/
+env/
